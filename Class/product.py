@@ -61,7 +61,6 @@ class paper(product) :
 
 
 # pencil
-#def __init__(self, id, picture, name, price,  in_stock, category, type,date,recommend, color, intensity):
 PentelCaplet = pencil("CON4031717","CON4031717.png","ดินสอกด Pentel Caplet 0.5 มม.","26฿","10 อัน","ดินสอและอุปกรณ์เสริม","ดินสอ","19 Mar 2023",False,"ฟ้า","HB")
 print(PentelCaplet.__dict__.items())
 STAEDTLER100 = pencil("CON4033233","CON4033233.jpg","ดินสอ STAEDTLER Mars Lumograph 100","24฿","10 อัน","ดินสอและอุปกรณ์เสริม","ดินสอ","20 Mar 2023",False,"ดำ","HB")
